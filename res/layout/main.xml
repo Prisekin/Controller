@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/enter_background"
+        >
+    <EditText
+            android:id="@+id/username"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:background="@drawable/edit_text"
+            android:hint="@string/username_hint"
+            android:textColorHint="#ffcfcfcf"
+            android:textColor="#ffcfcf00"
+            />
+    <EditText
+            android:id="@+id/password"
+            android:inputType="textPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dip"
+            android:layout_below="@id/username"
+            android:background="@drawable/edit_text"
+            android:hint="@string/password_hint"
+            android:textColorHint="#ffcfcfcf"
+            android:textColor="#ffcfcf00"
+            />
+    <Button
+            android:onClick="Authentication"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dip"
+            android:layout_below="@id/password"
+            android:text="@string/enter_string"
+            android:textColor="#ff000000"
+            android:background="@drawable/button"
+
+            />
+<ProgressBar
+    android:id="@+id/progress"
+    android:layout_width="40dip"
+    android:layout_height="40dip"
+    android:layout_centerInParent="true"
+    android:visibility="gone"
+    />
+</RelativeLayout>
+

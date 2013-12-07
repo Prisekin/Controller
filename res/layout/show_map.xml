@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+    android:id="@+id/party_name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:text="@string/party_name_default"
+    android:textColor="#ff00cf00"
+        />
+    <Button
+    android:onClick="StartChecking"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:text="@string/button_checking"
+    android:textColor="#ff000000"
+    android:background="@drawable/button"
+        />
+</RelativeLayout>    
+<fragment
+    	android:id="@+id/map_view" 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    	android:name="com.google.android.gms.maps.MapFragment"/>
+    />
+</LinearLayout>

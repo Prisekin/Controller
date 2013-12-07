@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+<item
+    android:id="@+id/map_menu_map_id"
+    android:title="@string/map"
+    android:showAsAction="always"
+    />    
+<item
+    android:id="@+id/map_menu_sat_id"
+    android:title="@string/satellite"
+    android:showAsAction="always"
+    />    
+
+</menu>

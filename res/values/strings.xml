@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Контролёр</string>
+    <string name="username_hint">Пользователь</string>
+    <string name="password_hint">Пароль</string>
+    <string name="enter_string">Войти</string>
+    <string name="menu_exit_string">Выход</string>
+    <string name="bar_code_scanner">Сканирование штрих кодов:</string>
+    <string name="scan_code">Сканировать</string>
+    <string name="exit_program">Выйти из программы</string>
+    <string name="button_checking">Проверка</string>
+    <string name="party_name_default">Рога и копыта</string>
+    <string name="map">Карта</string>
+    <string name="satellite">Спутник</string>
+    <string name="make_photo">Сфотографировать</string>
+    <string name="make_photo_again">Снять ещё раз</string>
+    <string name="send_photo">Отправить</string>
+</resources>

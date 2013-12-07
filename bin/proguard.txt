@@ -1,0 +1,40 @@
+# view AndroidManifest.xml #generated:18
+-keep class com.Prisekin.Controller.Controller { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.Prisekin.Controller.PhotoCamera { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.Prisekin.Controller.Preview { <init>(...); }
+
+# view AndroidManifest.xml #generated:26
+-keep class com.Prisekin.Controller.QRreader { <init>(...); }
+
+# view AndroidManifest.xml #generated:38
+-keep class com.Prisekin.Controller.ShowContacts { <init>(...); }
+
+# view AndroidManifest.xml #generated:29
+-keep class com.Prisekin.Controller.ShowMap { <init>(...); }
+
+# view res/layout/show_map.xml #generated:27
+-keep class com.google.android.gms.maps.MapFragment { <init>(...); }
+
+# onClick res/layout/main.xml #generated:30
+-keepclassmembers class * { *** Authentication(...); }
+
+# onClick res/layout/qr_reader.xml #generated:17
+# onClick res/layout/qr_reader.xml #generated:28
+-keepclassmembers class * { *** ButtonClicked(...); }
+
+# onClick res/layout/camera.xml #generated:6
+-keepclassmembers class * { *** MakePhoto(...); }
+
+# onClick res/layout/preview.xml #generated:19
+-keepclassmembers class * { *** MakePhotoAgain(...); }
+
+# onClick res/layout/preview.xml #generated:28
+-keepclassmembers class * { *** SendPhoto(...); }
+
+# onClick res/layout/show_map.xml #generated:17
+-keepclassmembers class * { *** StartChecking(...); }
+

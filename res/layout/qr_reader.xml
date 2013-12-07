@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/enter_background">
+<TextView
+    android:id="@+id/scan_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="5dip"
+    android:text="@string/bar_code_scanner"
+    android:textColor="#ffcf00cf"
+    android:textSize="15dip"/>
+<Button
+    android:id="@+id/scan"
+    android:onClick="ButtonClicked"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="5dip"
+    android:layout_below="@id/scan_text"
+    android:background="@drawable/button"
+    android:textColor="#ff000000"
+    android:text="@string/scan_code"/>
+<Button
+    android:id="@+id/exit"
+    android:onClick="ButtonClicked"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerHorizontal="true"
+    android:layout_margin="5dip"
+    android:layout_below="@id/scan"
+    android:background="@drawable/button"
+    android:textColor="#ff000000"
+    android:text="@string/exit_program"/>
+</RelativeLayout>

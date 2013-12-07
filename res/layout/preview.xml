@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/enter_background">
+<RelativeLayout
+    android:id="@+id/button_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dip"
+    android:layout_alignParentBottom="true"
+    >
+<LinearLayout
+    android:layout_centerHorizontal="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+	android:orientation="horizontal"    
+    >        
+<Button
+    android:id="@+id/again_button"
+    android:onClick="MakePhotoAgain" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/make_photo_again"
+    android:textColor="#ff000000"
+    android:background="@drawable/button"
+    />
+<Button
+    android:id="@+id/send_button"
+    android:onClick="SendPhoto" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="5dip"
+    android:text="@string/send_photo"
+    android:textColor="#ff000000"
+    android:background="@drawable/button"
+    />
+</LinearLayout>
+</RelativeLayout>
+<ImageView
+    android:id="@+id/image_preview"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_above="@id/button_layout"
+    android:layout_marginTop="10dip"
+    android:layout_marginBottom="10dip"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:background="#ff7f7f7f"
+/>
+</RelativeLayout>
